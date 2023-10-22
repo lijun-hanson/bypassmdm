@@ -7,7 +7,7 @@ echo ""
 echo -e "Auto Tools for MacOS"
 echo ""
 PS3='Please enter your choice: '
-options=("Bypass on Recovery" "Disable Notification (SIP)" "Disable Notification (Recovery)" "Check MDM Enrollment" "Exit")
+options=("Bypass on Recovery" "Disable Notification (SIP)" "Disable Notification (Recovery)" "Check MDM Enrollment" "Quit")
 select opt in "${options[@]}"; do
 	case $opt in
 	"Bypass on Recovery")
